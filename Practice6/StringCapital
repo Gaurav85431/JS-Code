@@ -1,0 +1,16 @@
+All Letter capital-- -
+  1. toUpperCase();
+
+2. let char = arr[i]
+if (char >= 'a' && char <= 'z') {
+  char = String.fromCharCode(char.charCodeAt(0) - 32);
+}
+result = result + char;
+
+
+Only first capital -
+  1. str[0].toUpperCase + str.slice(1);
+
+
+Each Word ka First Letter Capital -
+  1. word[i] = word[i].charAt(0).toUpperCase() + word[i].slice(1).toLowerCase();
