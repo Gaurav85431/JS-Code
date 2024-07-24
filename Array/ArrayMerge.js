@@ -21,3 +21,4 @@ for (let itm of arr2) {
   MergeArr.push(itm);
 }
 console.log("MERGE array is ", MergeArr)
+

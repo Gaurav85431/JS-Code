@@ -2,6 +2,7 @@ let arr = [12, 23, 43, 54, 56, 54, 43];
 
 let subArray1 = arr.slice(0, 4);
 let subArray2 = arr.slice(2); //2 se last tak
+let subArr2 = arr.slice(4, 3);// es case me [] aayeaga.
 
 console.log("Sub arrays ", subArray1, "  ", subArray2);
 

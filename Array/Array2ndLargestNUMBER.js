@@ -40,6 +40,9 @@ for (let itm of ary) {
 console.log("2nd largest is ", s);
 
 
+
+
+
 // 3rd // remove max value from array then find max
 let arrr = [12, 32, 43, 5, 76, 56, 54, 34, 56, 45];
 let max = arrr[0];
